@@ -9,14 +9,7 @@ body {
 }
 
 article {
-  border: 1px solid #000;
-  /* -webkit-box-orient: horizontal; */
-  /* -webkit-box-direction: normal; */
-  /* flex-direction: row; */
-  /* -webkit-box-flex: 1; */
-  /* flex-grow: 1; */
-  /* -webkit-box-pack: center; */
-  /* justify-content: center; */
+  /* border: 1px solid #000; */
   margin: 30px auto 0;
   max-width: 935px;
   padding-bottom: 44px;
@@ -59,7 +52,7 @@ article {
   flex-direction: column;
   position: relative;
   vertical-align: baseline;
-  border: 1px dotted black;
+  /* border: 1px dotted black; */
 }
 
 .right-top-box{
@@ -76,17 +69,13 @@ article {
   vertical-align: baseline;
 }
 
-.right-top-box h1 {
+.right-top-box img {
   margin: 22px auto 12px;
+  width: 175px;
   display: block;
   overflow: hidden;
-  text-indent: 110%;
   white-space: nowrap;
-  background-repeat: no-repeat;
-  background-position: 0 -264px;
-  height: 51px;
-  width: 175px;
-  background-image: url(images/instagram1.png);
+  /* box-sizing: border-box; */
 }
 
 .sign-up {
@@ -163,6 +152,22 @@ form h2{
   margin: 0 18px;
   text-transform: uppercase;
   display: flex;
+}
+
+.email-row {
+  align-content: center;
+  align-items: center;
+}
+
+.email-box {
+  font-size: 12px;
+  padding: 9px 0 7px 8px;
+  text-align: elipsis;
+  background: #fafafa;
+  line-height: 18px;
+  cursor: text;
+  color: #999;
+  width: 268px;
 }
 
 .right-middle-box {
